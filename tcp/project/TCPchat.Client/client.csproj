@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="supertempsnip.png" />
+    <None Remove="tempsnip.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DevExpressMvvm" Version="21.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="supertempsnip.png" />
+    <Resource Include="tempsnip.png" />
+  </ItemGroup>
+
+</Project>
